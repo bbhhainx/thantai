@@ -28,18 +28,18 @@
     </div>
 
     <div class="flex items-center gap-2 leading-none py-2">
-       <div class="block-text h-fit">
+      <div class="block-text h-fit">
         <p class="font-bold">Không Giới Hạn</p>
         <p>Rút Tiền</p>
-       </div>
-       <div class="block-text h-fit">
+      </div>
+      <div class="block-text h-fit">
         <p class="font-bold">Không Xác Minh</p>
         <p>Danh Tính</p>
-       </div>
-       <div class="block-text h-fit">
+      </div>
+      <div class="block-text h-fit">
         <p class="font-bold">Hỗ Trợ Nhanh</p>
         <p>24/7</p>
-       </div>
+      </div>
     </div>
   </div>
 </template>
@@ -66,7 +66,6 @@ const images = [
 .el-carousel__arrow{
     display: block !important;
     background-color: rgba(0, 0, 0, 0.6) !important;
-    transform: none !important;
 }
 .el-carousel__container{
     min-height: fit-content !important;
