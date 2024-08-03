@@ -27,28 +27,41 @@
 import { IMatch } from '../interface/data'
 
 const {source} = defineProps<{
-  index: number
   source: IMatch
 }>()
 
 </script>
 <style scoped>
+h4 {
+  color: #fff;
+  padding: 5px 10px;
+  background-color: #dd00ca;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin: 0;
+  font-weight: 700;
+}
 .matches-wrapper {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .Pages3_teams__MiOh0 {
   width: 100%;
   max-width: 500px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding: 10px 10px;
-  background-color: rgba(0, 26, 193, 0.2235294118);
+  background-color: #001ac139;
   border-radius: 10px;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   margin: auto;
   margin-bottom: 5px;
   flex-wrap: wrap;
+}
+.flag {
+  width: 50px;
+  height: 30px;
 }
 </style>
